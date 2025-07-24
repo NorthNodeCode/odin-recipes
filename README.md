@@ -1,4 +1,4 @@
 # odin-recipes
-Odin Recipes Project. 1st Github linked odin project
+This is a recipe page. First odin project project (hehe)
 
-This is a project based on 
+I learned how to make a basic html website with absolute and relative links. I used un-and orderered lists. Learned about the <hr/> tag, which makes a header line. Used paragraph tags. Pretty basic ass website but yeah.
