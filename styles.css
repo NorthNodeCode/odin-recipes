@@ -1,0 +1,71 @@
+/* index.html */
+.navlink a{
+    text-decoration: none !important;
+    color:black;
+    display:block;
+}
+body{
+    background-color: rgb(25, 51, 65);
+    font-family: Helvetica, Arial, sans-serif;
+}
+.header{
+    width:fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.navlink{
+    color: #000000;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.5);
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+.navlink a{
+    padding: 0.5em;
+}
+.navlink:hover{
+    background-color: rgba(240, 248, 255, 1);
+}
+
+.textbox{
+    width: fit-content;
+    margin: 1em auto;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 0.5em;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.textbox ul,
+.textbox ol {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0.1em;
+  font-style: italic;
+}
+figure{
+    width: fit-content;
+    margin: 1em auto;
+    background-color: rgba(240, 248, 255, 0.5);
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 1em;
+
+}
+figure img{
+    width: 300px;
+    height: auto;
+}
+figcaption{
+    text-align: center;
+    font-weight: 200;
+    font-size: small;
+    padding-top: 0.5em;
+    box-sizing: border-box;
+    font-style: italic;
+}
