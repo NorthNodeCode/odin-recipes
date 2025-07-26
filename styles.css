@@ -1,71 +1,86 @@
 /* index.html */
-.navlink a{
-    text-decoration: none !important;
-    color:black;
-    display:block;
+.navlink a {
+  text-decoration: none;
+  color: black;
+  display: block;
 }
-body{
-    background-color: rgb(25, 51, 65);
-    font-family: Helvetica, Arial, sans-serif;
+body {
+  background-color: rgb(25, 51, 65);
+  font-family: Helvetica, Arial, sans-serif;
 }
-.header{
-    width:fit-content;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.5);
-    padding: 0.5em;
-    border-radius: 1em;
-}
-.navlink{
-    color: #000000;
-    box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.5);
-    width: fit-content;
-    margin: 0 auto;
-    margin-bottom: 0.5em;
-    border-radius: 1em;
-}
-.navlink a{
-    padding: 0.5em;
-}
-.navlink:hover{
-    background-color: rgba(240, 248, 255, 1);
+.header {
+  width: fit-content;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: rgba(240, 248, 255, 0.65);
+  padding: 0.5em;
+  border-radius: 1em;
+  text-align: center;
 }
 
-.textbox{
+.headerinbox{
     width: fit-content;
-    margin: 1em auto;
-    background-color: rgba(240, 248, 255, 0.5);
-    padding: 0.5em;
-    border-radius: 1em;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    padding: 0.2em;
     box-sizing: border-box;
+}
+.navlink {
+  color: #000000;
+  box-sizing: border-box;
+  background-color: rgba(240, 248, 255, 0.3);
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  border-radius: 1em;
+}
+.navlink a {
+  padding: 0.5em;
+}
+.navlink:hover {
+  background-color: rgba(240, 248, 255, 1);
+}
+
+.textbox {
+  width: fit-content;
+  margin: 1em auto;
+  background-color: rgba(240, 248, 255, 0.65);
+  padding: 0.5em;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.textbox p{
+    margin:0.5em;
 }
 
 .textbox ul,
 .textbox ol {
   list-style-position: inside;
   padding: 0;
-  margin: 0.1em;
+  margin: 0 0.3em;
   font-style: italic;
+  text-align: left;
 }
-figure{
-    width: fit-content;
-    margin: 1em auto;
-    background-color: rgba(240, 248, 255, 0.5);
-    box-sizing: border-box;
-    padding: 1em;
-    border-radius: 1em;
-
+figure {
+  width: fit-content;
+  margin: 1em auto;
+  background-color: rgba(240, 248, 255, 0.65);
+  box-sizing: border-box;
+  padding: 1em;
+  border-radius: 1em;
 }
-figure img{
-    width: 300px;
-    height: auto;
+figure img {
+  width: 300px;
+  height: auto;
+  border-radius: 1em;
 }
-figcaption{
-    text-align: center;
-    font-weight: 200;
-    font-size: small;
-    padding-top: 0.5em;
-    box-sizing: border-box;
-    font-style: italic;
+figcaption {
+  text-align: center;
+  font-weight: 200;
+  font-size: small;
+  padding-top: 0.5em;
+  box-sizing: border-box;
+  font-style: italic;
 }
